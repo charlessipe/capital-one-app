@@ -21,6 +21,24 @@ class App extends Component {
               <h2>Sign Up</h2>
               <p>sign up form here</p>
 
+              <form>
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter first name"></input>
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter last name"></input>
+                <label for="dateOfBirth">Date of Birth*</label>
+                <input type="text" class="form-control" id="dateOfBirth" placeholder="XXXX-XX-XX"></input>
+                <label for="socialSecurityNumber">SSN*</label>
+                <input type="text" class="form-control" id="socialSecurityNumber" placeholder="SSN*"></input>
+                <label for="citizenshipCountry">Citizenship Country</label>
+                <input type="text" class="form-control" id="citizenshipCountry" placeholder="Citizenship Country"></input>
+                <label for="secondaryCitizenshipCountry">Seconday Citizenship Country</label>
+                <input type="text" class="form-control" id="secondaryCitizenshipCountry" placeholder="Secondary Citizenship Country"></input>
+                <label for="employmentStatus">employment Status</label>
+                <input type="text" class="form-control" id="employmentStatus" placeholder="Employment Status*"></input>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
               <h2>Choose a Charity</h2>
               <div class="form-group">
                 <label for="exampleSelect2">Example multiple select</label>
